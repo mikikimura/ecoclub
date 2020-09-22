@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Club</title>
+    <link rel="shortcut icon" type="image/png" href="./favIconEco.png">
+    <link href="./index.css" type="text/css" rel="stylesheet">
+    <link href="./allStyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a name="top"></a>
+        <div class="svgOne">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 1440 320"><path fill="#c2cfb2" 
+            fill-opacity="1" d="M0,32L20,48C40,64,80,96,120,117.3C160,139,200,149,240,160C280,171,320,181,360,208C400,235,440,277,480,266.7C520,256,560,192,600,170.7C640,149,680,171,720,192C760,213,800,235,840,240C880,245,920,235,960,213.3C1000,192,1040,160,1080,165.3C1120,171,1160,213,1200,213.3C1240,213,1280,171,1320,176C1360,181,1400,235,1420,261.3L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path></svg>
+        </div>
+        <div class="svgTwo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFD199" fill-opacity="1" d="M0,224L80,229.3C160,235,320,245,480,218.7C640,192,800,128,960,101.3C1120,75,1280,85,1360,90.7L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        </div>
+        <div class="logo">
+            <img src="./bear.png">
+        </div>
+        <nav>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html"><u>HOME</u></a>  
+                    </li>
+                    <li>
+                        <a href="Articles.html">ARTICLES</a>  
+                    </li>
+                    <li>
+                        <a href="Links.html">LINKS</a>  
+                    </li>
+                    <li>
+                        <a href="Team.html">EXECUTIVES</a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="computerNav">
+                <img src="./NidoEagleLogo.png">
+                <ul>
+                    <li>
+                        <a href="index.html"><u>HOME</u></a> 
+                    </li>
+                    <li>
+                        <a href="Articles.html">ARTICLES</a>  
+                    </li>
+                    <li>
+                        <a href="Links.html">LINKS</a>  
+                    </li>
+                    <li>
+                        <a href="Team.html">EXECUTIVES</a> 
+                            <!--
+                            <ul class="subpage">
+                                <li><a href="acomplishments.html">Acomplishments</a></li>
+                            </ul> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('.menu').toggleClass('active')
+                })
+            })
+        </script>
+        
+        <div class="opening">
+            <h1>ECO-CLUB</h1>
+        </div>
+    </header>
+    <div class="content">
+        <ul class="connection">
+            <li><a href="#spotlight">Spotlight Article</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+        </ul>
+        <!--
+            <div class="challenge">
+                <h2>Imperative Reminders</h2>
+                <div class="dashTwo"></div>
+                <ul>
+                    <li>
+                        Turn off all lights 
+                    </li>
+                    <li>
+                        Finish all food on your plate
+                    </li>
+                </ul>
+            </div>
+        -->
+        <div class="spotlight" id="spotlight">
+            <h1>Spotlight Article</h1>
+            <h2><u>Fast Fashion</u></h2>
+            <p>
+                <b>What is “Fast fashion”?:
+                </b><br>Nowadays, “Fast fashion” clothing brands such as Forever 21, SheIn and Urban Outfitters<a href="#section1">[1]</a> are very popular - and also incredibly harmful towards the environment. 
+                If you don’t know what they are, “fast fashion” brands are companies that sell cheap clothes in order to quickly keep up with or create fashion trends<a href="#section1">[2]</a>. These stores produce clothes at a rapid rate and by design, 
+                these items of clothing are made to be replaced quickly. In fact, the quality of these items can be so cheap that lots of donated clothes ends up falling apart before arriving at consignment stores. According to a 2017 Forbes article, 
+                only about 10% of donated clothes actually got resold, while the rest ends up in landfills<a href="#section1">[3]</a>.
+                
+                <br><br><b>The harm behind the production of fast fashion:</b><br>
+                It’s wasteful. Like mentioned before, a lot of clothes end up in landfills and a study found that in the US alone, 13 trillion tons of clothes get sent to landfills every year. 
+                These clothes stay there for around 200 years, while leaving behind chemicals dyes which contaminate the soil and groundwater around it<a href="#section1">[4]</a>. On top of this, “fast fashion” is bad for the environment because of the CO2 emissions caused by the production of clothes. 
+                Statistics show that by 2030, CO2 emissions from “fast fashion” brands are predicted to increase by 60%, to 2.8 billion tons.<a href="#section1">[5]</a> Furthermore, textile dyeing is considered one of the largest causes of pollution of clean water in the world<a href="#section1">[6]</a>. 
+                On top of this, the materials in which many of these brands use to produce garments of clothing are also bad for the environment. 
+                For example, when clothes made out of polyester, which is a commonly used material for “fast fashion” companies, are washed, tiny fragments of microfibres are shed, which add to the plastic in the ocean. 
+                This is because these microfibres are so small that they can pass through sewages into waterways and they also are not biodegradable<a href="#section1">[7]</a>. Another example could be cotton. Toxic chemicals are used when growing cotton, which uses large amounts of water and pesticides in order to avoid crop failure. 
+                These chemicals also cause defects in the farmers growing the cotton and their children<a href="#section1">[8]</a>.
+                
+                <br><br><b>What you can do: Invest in some higher quality clothes because in the long run, you’re saving more money.</b><br> 
+                More sustainable clothing brands you could buy from include: Levi’s, H&M Conscious (their environmentally friendlier collection), 
+                Patagonia, Athleta, Alternative Apparel, People Tree, Pact, and more<a href="#section1">[9]</a>. Although it can be difficult to stop shopping at your favorite stores, consider at least reducing how much you buy from these 
+                “fast fashion” brands - it’ll be much better for the environment, for your soul, and for your carbon footprint. 
+                <br><br>By Sarah Rubio
+
+            </p>
+        </div>
+            <footer>
+                <p id="section1">[1]  Lauren. “8 Fast Fashion Brands to Avoid at All Costs.” The Laurie Loo, The Laurie Loo, 16 Jan. 2019, thelaurieloo.com/blog/fast-fashion-brands-to-avoid. 
+                </p>
+                <p id="section1">[2]  “Fast Fashion.” Merriam-Webster, Merriam-Webster, www.merriam-webster.com/dictionary/fast fashion. 
+                </p>
+                <p id="section1">[3] Quora. “Fast Fashion Is A Disaster For Women And The Environment.” Forbes, Forbes Magazine, 26 July 2017, www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster-for-women-and-the-environment/. 
+                </p>
+                <p id="section1" >[4] Ibid
+                </p>
+                <p id="section1" >[5] Ibid
+                </p>
+                <p id="section1" >[6] “The Environmental Costs of Fast Fashion.” The Independent, Independent Digital News and Media, www.independent.co.uk/life-style/fashion/environment-costs-fast-fashion-pollution-waste-sustainability-a8139386.html. 
+                <p id="section1" >[7] Ibid
+                </p>
+                <p id="section1" >[8] Ibid
+                </p>
+                <p id="section1" >[9]  Guide, Staff. “35 Ethical & Sustainable Clothing Brands Betting Against Fast Fashion.” The Good Trade, The Good Trade, 26 May 2020, www.thegoodtrade.com/features/fair-trade-clothing. 
+
+                </p>
+            </footer>
+        <h1 id="aboutUs">About Us</h1>
+        <div class="dashTwo"></div>
+        <video width="50%" height="auto"controls><source src="./ECO-CLUB.mp4">About Us Video</video>
+        <p>
+            Eco Club is a student led club that seeks to make the school more eco-friendly, raise awareness on simple ways every individual can help, and fundraise in order to donate to non-profit organizations that are helping the environment. 
+            We plan on organizing high school events where we can raise money for a variety of environmental issues, such as helping endangered animals or volunteering to do plastic cleanups, and advocate against food waste. 
+            Through these events we want to motivate and inspire more students to act, educate themselves, and become aware. This is a topic we feel very strongly about and would like to extend participation and involvement to the whole community! 
+            If you are passionate about the environment and want to make a difference, this is the club for you!
+
+        </p>
+        <div class="aboutUs">
+            <div class="goals">
+                <h3>
+                    Our goals 
+                </h3>
+                <p>
+                    - <b>Educate</b> by sharing documentaries and informing people of the dangers our planet faces today<br><br>
+                    - <b>Spread awareness</b> by promoting environment orientated organizations<br><br>
+                    - <b>Advocate for change </b>by providing petitions and offering more environmentally safe alternatives to wasteful actions of our everyday lives<br><br>
+                    - <b>Making the school as eco-friendly as possible</b> by making creative fundraising events that involve the whole community to work together to help our planet<br><br>
+                </p>
+            </div>
+            <div class="goals">
+                <h3>
+                    Accomplishments
+                </h3>
+                <p>
+                    <b>Milk Alternatives Workshop:</b>
+                    <br>We focused on educating students about the negative environmental impacts that cow milk has on our planet and why they should change to plant-based milk(Sep 10, 2020).<br><br>
+
+
+  
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="end">
+        <h4>Sign-up: <a href="https://docs.google.com/forms/d/e/1FAIpQLScX6SxfPjTvsJoFaPiJvAeawS3QUfbiVsqpTJKb70DPR03BLw/viewform?usp=sf_link" 
+            target="_blank">here</a></h4>
+        <h4 style="margin-bottom: 1%;">
+            Instagram:<a href="https://www.instagram.com/nido.ecoclub/" target="_blank">@nido.ecoclub</a>
+        </h4>
+        <span><img src="./sketchedWhale.png"></span>
+    </div>
+    <div class="backToTop">
+        <a href="#top">Back to top</a>
+    </div>
+</body>
+</html>
